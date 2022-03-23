@@ -30,6 +30,9 @@
 
 header{
     display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 header a{
@@ -76,6 +79,8 @@ header #btn-app svg{
 header #btn-app:hover{
     background-color: rgba(60,64,67,0.08);
  }
+
+
 /* == Page Specific */
 
 
