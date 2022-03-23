@@ -82,6 +82,22 @@ header #btn-app:hover{
     background-color: rgba(60,64,67,0.08);
  }
 
+ footer{
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     left: 0;
+ }
+
+ footer #country{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background-color: #f2f2f2;;
+
+ }
+
 
 /* == Page Specific */
 
