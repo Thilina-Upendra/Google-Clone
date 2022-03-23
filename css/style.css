@@ -9,6 +9,10 @@
 
  /* == Base Styles | Utitlies */
 
+ :root{
+     font-size: 14px;
+ }
+
  *{
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -18,9 +22,47 @@
     clear: both;
 }
 
+.small{
+    font-size: 13px;
+}
+
 /* == Site-Wide | Layout */
 
+header{
+    display: flex;
+}
+
+header a{
+    color: rgba(0, 0, 0, .87);
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+header #sign-in{
+    width: 80px;
+    height: 36px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 9px 15px;
+    margin: 0 8px;
+    color: white;
+}
+
+header #sign-in:hover{
+    text-decoration: none;
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+
+}
 /* == Page Specific */
+
+
 
 /* == Key Frames */
 
