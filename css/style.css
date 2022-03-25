@@ -81,6 +81,23 @@ header #btn-app svg{
    fill: #5f6368;
 }
 
+/* ==Main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+    gap: 45px; /* Change later */
+}
+
+main #logo-wrapper{
+    display: flex;
+    align-items: center;
+    height: 103px;
+}
+
+
+
 footer{
     position: fixed;
     left: 0;
