@@ -178,8 +178,14 @@ main #offer-wrapper a{
 }
 main #offer-wrapper{
     font-size: 13px;
+    color: rgb(60, 64, 67)
 }
 
+main div #copyright-claim {
+    padding-top: 25px;
+    color: rgb(112, 112, 112);
+    text-align: center;
+}
 
 footer{
     position: fixed;

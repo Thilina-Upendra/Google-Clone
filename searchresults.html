@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <style>
+        
+        header{
+            width: 100%;
+            height: 150px;
+            background-color: lightgray;
+        }
+
+        #results{
+            margin-left: 100px;
+            margin-right: 50px;
+        }
+    </style>
 </head>
 <body>
-    <script async src="https://cse.google.com/cse.js?cx=34c1556a246fb1a41"></script>
-    <div class="gcse-search"></div>
+
+    <header></header>
+    <div id="results">
+        <script async src="https://cse.google.com/cse.js?cx=34c1556a246fb1a41"></script>
+        <div class="gcse-searchresults-only"></div>
+    </div>
 </body>
 </html>
