@@ -49,12 +49,12 @@ header a{
 }
 
 header #sign-in{
-    width: 80px;
+    width: 96px;
     height: 36px;
     background: #1a73e8;
     border: 1px solid transparent;
     border-radius: 4px;
-    padding: 9px 15px;
+    padding: 9px 23px;
     margin: 0 8px;
     color: white;
 }
