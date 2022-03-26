@@ -26,9 +26,123 @@
 
 header{
     width: 100%;
-    height: 150px;
-    background-color: lightgray;
+    height: 127px;
 }
+
+header #header-top{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 69px;
+    border: 1px solid red;
+}
+
+header #header-top #logo-wrapper{
+    height: 46px;
+    width: 150px;
+    padding: 6px 27px 0px 30px;
+}
+
+header #header-top #logo-wrapper img{
+    height: 30px;
+    width: 92px;
+}
+
+header #header-top #form-wrapper{
+    height: 46px;
+    width: 567px;
+}
+/* ======================= */
+header #header-top #form-wrapper #search-wrapper{
+    display: flex;
+    height: 44px;
+    width: 600px;
+    margin: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    align-items: center;
+
+}
+
+header #header-top #form-wrapper #search-wrapper:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+header #header-top #form-wrapper #search-wrapper input{
+    width: 100%;
+    margin-left:13px ;
+    margin-bottom: 3px;
+    height: 34px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgba(0,0,0,.87);
+}
+
+header #header-top #form-wrapper #search-wrapper #icon-search{
+    display: flex;
+    height: 44px;
+    align-items: center;
+    width: 33px;
+    padding: 0px 0 0 5px ;
+}
+
+header #header-top #form-wrapper #search-wrapper svg{ 
+    fill: #9aa0a6;
+    width: 20px;
+    height: 20px;
+}
+/* ======================= */
+
+header #header-top #icon-wrapper{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 46px;
+    width: 300px;
+    background-color: lawngreen;
+}
+/* ========================apps=============== */
+
+header #header-top #btn-app{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+header #header-top #btn-app:hover{
+    background-color: rgba(60,64,67,0.08);
+}
+
+header #header-top #btn-app svg{
+    fill: #5f6368;
+}
+
+header #header-top #sign-in{
+    width: 96px;
+    height: 36px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 9px 23px;
+    margin: 0 8px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+header #header-top #sign-in:hover{
+    text-decoration: none;
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);     
+}
+
+/* ========================apps=============== */
+
 
 #results{
     margin-left: 100px;
