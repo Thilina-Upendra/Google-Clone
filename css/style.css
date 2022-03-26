@@ -26,6 +26,7 @@
     font-size: 13px;
 }
 
+
 /* == Site-Wide | Layout */
 
 a{
@@ -115,9 +116,13 @@ main form #search-wrapper:hover{
 
 main form #search-wrapper input{
     width: 100%;
-    margin-right:10px ;
+    margin-left:13px ;
+    margin-bottom: 3px;
+    height: 34px;
+    font-size: 16px;
     border: none;
-     outline: none;
+    outline: none;
+    color: rgba(0,0,0,.87);
 }
 
 main form #search-wrapper #icon-search{
@@ -125,7 +130,7 @@ main form #search-wrapper #icon-search{
     height: 44px;
     align-items: center;
     width: 33px;
-    padding: 0 0 0 14px ;
+    padding: 0px 0 0 14px ;
 }
 
 main form #search-wrapper svg{ 
