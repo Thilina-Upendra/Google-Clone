@@ -121,7 +121,11 @@ main form #search-wrapper input{
 }
 
 main form #search-wrapper #icon-search{
-    padding: 0 14px;
+    display: flex;
+    height: 44px;
+    align-items: center;
+    width: 33px;
+    padding: 0 0 0 14px ;
 }
 
 main form #search-wrapper svg{ 
