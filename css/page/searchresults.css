@@ -1,0 +1,36 @@
+/* 
+
+* Copyright © 2022 DEP08. All Rights Reserved.
+* This project is licensed under the MIT License.
+* Please fine the lincense file in the root directry.
+
+* searchresults.css
+
+* Author: Thilina Upendra <thilina@ijse.lk> (https://thilinaijse.lk)
+*/
+
+
+/* == Base Style | Utilities */
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+/* == Site-wide | Layout */
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: lightgray;
+}
+
+#results{
+    margin-left: 100px;
+    margin-right: 50px;
+}

@@ -1,10 +1,10 @@
-/* Copyright © 2022 DEP8. All Rights Reserved.
+/* Copyright © 2022 DEP8 Thilina Upendra. All Rights Reserved.
  * This project is licensed under the MIT License.
  * Please find the license file in the root directory.
  *
  * style.css
  *
- * Author: Direct Entry Program <dep8@ijse.lk>
+ * Author: Thilina Upendra <thilina@ijse.lk> (https://thilinaijse.lk)
  */
 
  /* == Base Styles | Utitlies */
@@ -186,6 +186,9 @@ main div #copyright-claim {
     color: rgb(112, 112, 112);
     text-align: center;
 }
+
+
+/* ==Footer */
 
 footer{
     position: fixed;
