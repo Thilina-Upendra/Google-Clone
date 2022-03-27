@@ -56,7 +56,8 @@ header #header-top #form-wrapper{
 header #header-top #form-wrapper #search-wrapper{
     display: flex;
     height: 44px;
-    width: 600px;
+    width: 100%;
+    max-width: 592px;
     margin: auto;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
@@ -85,11 +86,10 @@ header #header-top #form-wrapper #search-wrapper #icon-search{
     height: 44px;
     align-items: center;
     width: 33px;
-    padding: 0px 0 0 5px ;
 }
 
 header #header-top #form-wrapper #search-wrapper svg{ 
-    fill: #9aa0a6;
+    color: #4285f4;
     width: 20px;
     height: 20px;
 }
